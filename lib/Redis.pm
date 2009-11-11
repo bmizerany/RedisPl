@@ -59,6 +59,7 @@ my $bulk_command = {
 	rpush => 1,	lpush => 1,
 	lset => 1,	lrem => 1,
 	sadd => 1,	srem => 1,
+	zadd => 1, zrem => 1,
 	sismember => 1,
 	echo => 1,
 };
